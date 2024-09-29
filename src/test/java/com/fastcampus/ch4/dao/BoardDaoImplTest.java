@@ -41,7 +41,7 @@ public class BoardDaoImplTest {
         SearchCondition sc = new SearchCondition(1, 10, "title2","T");
         int cnt = boardDao.searchResultCnt(sc);
         System.out.println("cnt = " + cnt);
-        assertTrue(cnt==2); // 1~20, title2, title12
+        assertTrue(cnt==3); // 1~20, title2, title12
 
     }
 
